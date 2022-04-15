@@ -1,0 +1,172 @@
+ #about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #experience{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #education{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #skills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #achievements{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #gallery{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .navbar{
+    flex-wrap: wrap;
+  }
+  
+  #nav{
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+      color: red;
+      font-size: 1em;
+  }
+  
+  h2{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 3em;
+      font-weight:bolder ;
+  }
+  
+  h3{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 2em;
+      font-weight:bold ;
+      color: grey;
+  }
+  
+  .carousel{
+    width: 800px;
+  }
+
+  .carousel-caption{
+    width: 350px;
+    height: 70px;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .nav-item{
+        width: 100%;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        min-width: 768px;
+    }
+  .nav-item{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media  screen and (max-width: 1366px) {
+
+    .nav-item{
+        width: 50%;
+        align-items: center;
+      }
+}
+ 
+
+@media  screen and (max-width: 1280px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+
+@media  screen and (max-width: 1440px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media  screen and (max-width: 1680px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media  screen and (max-width: 1920px) {
+    .nav-item{
+        width: 100%;
+      }
+}
+ 
+
+@media  screen and (max-width: 1600px) {
+    .nav-item{
+        width: 100%;
+      }
+}
